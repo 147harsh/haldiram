@@ -1,0 +1,53 @@
+.more
+{
+    color: white;
+    background-color: red;
+    border: 0px;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.hr
+{
+    width: 10%;
+    color: orange;
+}
+.cat
+{
+    width: 100%;
+}
+.img2
+{
+    width: 100%;
+}
+.video
+{
+    width: 100%;
+    height: 100%;
+}
+.img3
+{
+    width: 100%;
+    height: 300px;
+}
+.color
+{
+    background-color: #fac44b;
+}
+ul
+{
+    list-style-type: none;
+}
+.foot
+{
+    margin-left: 32px;
+}
+li
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.last
+{
+    background-color: #f5f5dc;
+}
