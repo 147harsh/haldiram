@@ -1,0 +1,153 @@
+.fixed-nav
+{
+    position:fixed;
+    background-color: white;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.507);
+}
+.nav-link
+{
+    font-weight: 500;
+}
+::placeholder
+{
+    font-weight: 500;
+}
+.carous
+{
+    margin-top: 140px;
+}
+.more
+{
+    color: white;
+    background-color: red;
+    border: 0px;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.line
+{
+    position: relative;
+}
+.line::after
+{
+  display: block;
+  content: '';
+  width: 50%;
+  height: 4px;
+  background:#fac44b;
+  position: absolute;
+  bottom: -10px;
+  left:25%;
+}
+.inner-cat
+{
+    position: relative;
+    overflow: hidden;
+    cursor:pointer;
+}
+.cat
+{
+    width: 100%;
+}
+.inner
+{
+    background: rgba(0, 0, 0, 0.541);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.5s;
+}
+.inner-cat:hover .inner
+{
+    bottom: 0;
+}
+.inner button
+{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: red;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.img2
+{
+    width: 100%;
+}
+.video
+{
+    width: 100%;
+    height: 100%;
+}
+.img3
+{
+    width: 100%;
+    height: 300px;
+}
+.color
+{
+    background-color: #fac44b;
+}
+ul
+{
+    list-style-type: none;
+}
+.foot
+{
+    margin-left: 32px;
+}
+li
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.last
+{
+    background-color: #f5f5dc;
+}
+.cart-btn
+{
+    width: 100%;
+    height: 40px;
+    color: black;
+    background-color: white;
+    outline: none;
+    border: 2px solid red;
+    font-weight: 500;
+}
+.cart-btn:hover
+{
+    color: white;
+    background-color: red;
+}
+.shadow1
+{
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.548);
+}
+.socialmedia a
+{
+    display: block;
+    margin: 10px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+.socialmedia i 
+{
+    margin-right: 5px;
+}
+@media screen and (max-width:765px) {
+    .carous
+{
+    margin-top: 170px;
+}
+}
